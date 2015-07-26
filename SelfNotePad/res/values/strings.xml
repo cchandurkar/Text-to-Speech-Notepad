@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SelfNotePadActivity!</string>
+    <string name="app_name">SelfNotePad</string>
+     <string name="activity2">Create New File</string>
+      <string name="open_in_text_mode">Open in Text Mode</string>
+       <string name="open_in_voice_mode">Open in Voice Mode</string>
+
+</resources>

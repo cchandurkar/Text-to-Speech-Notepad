@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="200dp"
+    android:layout_height="fill_parent"
+     android:gravity="center_horizontal" 
+       android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Text2Speech Notepad" />
+    <Button 
+        android:id="@+id/btn_new"
+        android:layout_width="200dp"
+        android:gravity="center_vertical|center_horizontal" 
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="New"
+     />
+    
+    <Button 
+        android:id="@+id/btn_open"
+        android:layout_width="200dp"
+        android:gravity="center_vertical|center_horizontal" 
+         android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+        android:text="Open in Voice Mode"
+     />
+    
+    
+    <Button 
+        android:id="@+id/btn_read"
+        android:layout_width="200dp"
+         android:gravity="center_vertical|center_horizontal" 
+          android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+        android:text="Open in Read Mode"
+     />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+         android:layout_margin="10dp"
+        android:text="Edit" />
+
+</LinearLayout>

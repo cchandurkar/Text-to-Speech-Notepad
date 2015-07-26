@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/open_in_text_mode"
+          android:title="@string/open_in_text_mode" >
+    </item>
+	<item android:id="@+id/open_in_voice_mode"
+          android:title="@string/open_in_voice_mode" >
+    </item>
+</menu>
